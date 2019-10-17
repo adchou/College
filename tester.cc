@@ -9,19 +9,18 @@ using namespace std;
 
 int main()
 {
+College classes;
 course s;
+for(int i = 0; i <3; i++)
+{
 cin >> s;
-
-College c;
-
-c.add(s);
-
-c.display(cout);
+classes.add(s);
 
 
 
-
-
+}
+ cout << endl << endl;
+ classes.display(cout);
 
 
 }
